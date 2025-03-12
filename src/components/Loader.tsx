@@ -1,12 +1,14 @@
-import "./style.css";
+import './style.css'
+
 const Loader = () => {
   return (
-    <div class="loading-wave">
-      <div class="loading-bar"></div>
-      <div class="loading-bar"></div>
-      <div class="loading-bar"></div>
-      <div class="loading-bar"></div>
+    <div className="loading-wave">
+      <div className="loading-bar"></div>
+      <div className="loading-bar"></div>
+      <div className="loading-bar"></div>
+      <div className="loading-bar"></div>
     </div>
-  );
-};
-export default Loader;
+  )
+}
+
+export default Loader
