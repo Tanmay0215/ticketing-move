@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="bg-gray-900">
       <NavBar />
-      <div className="min-h-screen text-white flex gap-5 justify-between items-center px-16">
+      <div className="min-h-screen text-white flex gap-5 justify-between items-center px-5 md:px-16">
         <div className="space-y-8 mt-12">
           <div className="text-5xl 2xl:text-6xl font-semibold max-w-md h-36">
             <ReactTypingEffect
@@ -17,7 +17,7 @@ const Home = () => {
               eraseDelay={1000}
             />
           </div>
-          <p className="text-md 2xl:text-xl max-w-lg leading-relaxed">
+          <p className="pt-10 text-md 2xl:text-xl max-w-lg leading-relaxed">
             Welcome to{' '}
             <span className="font-bold text-orange-400">TICKETING</span>, your
             ultimate destination for concert tickets! Explore an exciting lineup
@@ -34,7 +34,7 @@ const Home = () => {
           </button>
         </div>
 
-        <div className="relative flex justify-center items-center">
+        <div className="hidden relative md:flex justify-center items-center">
           <div className="flex justify-center mt-20">
             <img className="w-[60%] 2xl:w-full" src={Taylor} alt="Error" />
             <img

@@ -11,7 +11,7 @@ import NFTMinter from './pages/AptosInteract'
 
 function App() {
   return (
-    <div className="w-full min-h-screen">
+    <div className="w-full min-h-screen font-[Poppins]">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Events" element={<Events />} />

@@ -19,7 +19,6 @@ const NavBar = () => {
         if (userDoc.exists()) {
           const rewardTokens = userDoc.data().rewardTokens || 0
           setRewardToken(rewardTokens)
-          console.log('Reward Tokens:', rewardToken)
         } else {
           console.log('No user document found!')
         }
@@ -31,7 +30,7 @@ const NavBar = () => {
   }, [rewardToken])
 
   return (
-    <div className="absolute flex w-full justify-between items-center text-white px-10 py-5">
+    <div className="absolute flex w-full justify-between items-center text-white px-5 md:px-10 py-5">
       <div className="uppercase font-jaini text-4xl 2xl:text-5xl">
         <Link to='/'>Ticketing</Link>
       </div>
