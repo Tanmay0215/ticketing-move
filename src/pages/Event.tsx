@@ -2,8 +2,8 @@ import { Link, useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 import { collection, getDocs } from 'firebase/firestore'
 import { db } from '../firebase'
-import Loader from '../Components/Loader'
-import Chat from '../Components/Chat'
+import Loader from '../components/Loader'
+import Chat from '../components/Chat'
 
 const Event = () => {
   const [loading, setLoading] = useState(true)
